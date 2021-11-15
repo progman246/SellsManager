@@ -1,0 +1,15 @@
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\bin\Debug\net6.0\SellsManager.exe
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\bin\Debug\net6.0\SellsManager.deps.json
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\bin\Debug\net6.0\SellsManager.runtimeconfig.json
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\bin\Debug\net6.0\SellsManager.dll
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\bin\Debug\net6.0\ref\SellsManager.dll
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\bin\Debug\net6.0\SellsManager.pdb
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\obj\Debug\net6.0\SellsManager.csproj.AssemblyReference.cache
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\obj\Debug\net6.0\SellsManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\obj\Debug\net6.0\SellsManager.AssemblyInfoInputs.cache
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\obj\Debug\net6.0\SellsManager.AssemblyInfo.cs
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\obj\Debug\net6.0\SellsManager.csproj.CoreCompileInputs.cache
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\obj\Debug\net6.0\SellsManager.dll
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\obj\Debug\net6.0\ref\SellsManager.dll
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\obj\Debug\net6.0\SellsManager.pdb
+C:\Users\Hossein\source\repos\SellsManager\SellsManager\obj\Debug\net6.0\SellsManager.genruntimeconfig.cache

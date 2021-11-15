@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hossein\\source\\repos\\SupremeTeam\\Task1\\Sellsmanager.csproj",
-      "projectName": "Sellsmanager",
-      "projectPath": "C:\\Users\\Hossein\\source\\repos\\SupremeTeam\\Task1\\Sellsmanager.csproj",
+      "projectUniqueName": "C:\\Users\\Hossein\\source\\repos\\SellsManager\\SellsManager\\SellsManager.csproj",
+      "projectName": "SellsManager",
+      "projectPath": "C:\\Users\\Hossein\\source\\repos\\SellsManager\\SellsManager\\SellsManager.csproj",
       "packagesPath": "C:\\Users\\Hossein\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hossein\\source\\repos\\SupremeTeam\\Task1\\obj\\",
+      "outputPath": "C:\\Users\\Hossein\\source\\repos\\SellsManager\\SellsManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hossein\\AppData\\Roaming\\NuGet\\NuGet.Config",
