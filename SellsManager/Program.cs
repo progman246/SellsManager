@@ -19,9 +19,14 @@ foreach (var item in txtFile)
     files.Add(SampleProduct);
 }
 
-var query = files.GroupBy(x => x.ProductId).Select(x=> x.Sum(y=>y.Quantity)).Max(); 
-      
-            
-
-    //foreach(var item in query)
-    Console.WriteLine(query);
+//var query = files.GroupBy(x => x.ProductId).Select(x => x.Select(y => y.Quantity).Sum()).Max();
+//var query = files.GroupBy(x => x.ProductId);
+//var query1=query.Select(x=>x.Sum(x=>x.Quantity).max
+var query = files.GroupBy(x => x.ProductId).Select(x => new { ProductId = x.Key, TotalQuantity = x.Sum(y => y.Quantity) }).OrderByDescending(x => x.TotalQuantity).First();
+Console.WriteLine($"the Most Sell productId is :{query.ProductId} that TotalSells is :{query.TotalQuantity}");
+var TotalPrice=files.Sum(x=>x.Price);
+Console.WriteLine($"Total Price Paid for All Salles:{TotalPrice}");
+int AveragrPrice = TotalPrice / files.Count();
+Console.WriteLine(AveragrPrice);
+var query1 = files.GroupBy(x => x.ProductId).Select(x => new { ProductId = x.Key, TotalSells = x.Sum(y => y.Quantity * y.Price) }).OrderByDescending(x=>x.TotalSells).Last();
+Console.WriteLine($"cheapest Sell Product : {query1.ProductId}");
