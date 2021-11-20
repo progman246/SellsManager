@@ -30,3 +30,4 @@ int AveragrPrice = TotalPrice / files.Count();
 Console.WriteLine(AveragrPrice);
 var query1 = files.GroupBy(x => x.ProductId).Select(x => new { ProductId = x.Key, TotalSells = x.Sum(y => y.Quantity * y.Price) }).OrderByDescending(x=>x.TotalSells).Last();
 Console.WriteLine($"cheapest Sell Product : {query1.ProductId}");
+Console.WriteLine("Hello World");
